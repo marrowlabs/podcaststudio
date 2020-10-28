@@ -95,7 +95,7 @@ body {
       width: 100%; }
 
 #podcast {
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 200px; }
   #podcast .podcast-title {
     padding-top: 40px; }
@@ -136,6 +136,9 @@ body {
         letter-spacing: 0.132353px;
         color: rgba(255, 255, 255, 0.87);
         margin-bottom: 0; }
+  @media (max-width: 991px) {
+    #podcast {
+      padding-bottom: 40px; } }
 
 #koncept {
   background: url(../img/koncept.png) right no-repeat;
@@ -184,6 +187,10 @@ body {
       @media (max-width: 1481px) {
         #koncept .info-wrapper .dots {
           display: none; } }
+  @media (max-width: 991px) {
+    #koncept {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
 
 #usluge {
   padding-top: 188px; }
@@ -221,6 +228,9 @@ body {
         line-height: 32px;
         letter-spacing: 0.176471px;
         color: #f8f8f8; }
+  @media (max-width: 991px) {
+    #usluge {
+      padding-top: 40px; } }
 
 #projekcije {
   padding-top: 200px;
@@ -253,6 +263,10 @@ body {
     margin-bottom: 100px; }
     #projekcije .image-wrapper img {
       width: 100%; }
+  @media (max-width: 991px) {
+    #projekcije {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
 
 #pshamburg {
   padding-top: 300px;
@@ -278,3 +292,82 @@ body {
         line-height: 28px;
         letter-spacing: 0.132353px;
         color: rgba(255, 255, 255, 0.87); }
+
+#kontakt {
+  padding-top: 260px;
+  position: relative; }
+  #kontakt .shape {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    z-index: -1; }
+  #kontakt #waves-bottom {
+    position: relative;
+    margin-top: 60px; }
+    #kontakt #waves-bottom img {
+      width: 100%; }
+  #kontakt .kontakt-title {
+    padding-top: 40px; }
+    #kontakt .kontakt-title h1 {
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 72px;
+      line-height: 92px;
+      letter-spacing: 0.529412px;
+      margin-bottom: 69px;
+      color: #f8f8f8; }
+  #kontakt .kontakt-info {
+    margin-bottom: 115px; }
+    #kontakt .kontakt-info h6 {
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 24px;
+      line-height: 52px;
+      letter-spacing: 0.176471px;
+      color: #ffffff; }
+    @media (max-width: 991px) {
+      #kontakt .kontakt-info {
+        margin-bottom: 60px; } }
+  #kontakt .copyright p {
+    font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.132353px;
+    color: #ffffff; }
+  #kontakt .copyright a {
+    font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.132353px;
+    color: #ffffff; }
+  #kontakt .address {
+    padding-top: 202px; }
+    #kontakt .address h6 {
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 32px;
+      line-height: 52px;
+      letter-spacing: 0.176471px;
+      color: #ffffff; }
+    #kontakt .address p {
+      font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 32px;
+      line-height: 52px;
+      letter-spacing: 0.176471px;
+      color: #ffffff; }
+    @media (max-width: 991px) {
+      #kontakt .address {
+        padding-top: 60px; } }
+  #kontakt .social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 202px;
+    margin-bottom: 60px; }
+    @media (max-width: 991px) {
+      #kontakt .social-wrapper {
+        padding-top: 60px;
+        justify-content: flex-start; }
+        #kontakt .social-wrapper img {
+          margin-right: 30px; } }
+  #kontakt .dots img {
+    width: 100%; }
+  @media (max-width: 991px) {
+    #kontakt .dots img {
+      width: unset; } }
