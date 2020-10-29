@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar">
       <div class="container px-0">
-        <a class="navbar-brand" href="#">
-          <img src="./img/logo.svg" alt="logo" />
+        <a class="navbar-brand" href="#intro">
+          <img src="./img/logo.svg" id="logo" alt="logo" />
         </a>
         <button
           class="navbar-toggler"
@@ -34,22 +34,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">O podcastu</a>
+              <a class="nav-link" href="#podcast">O podcastu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Koncept</a>
+              <a class="nav-link" href="#koncept">Koncept</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Usluge</a>
+              <a class="nav-link" href="#usluge">Usluge</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projekcije</a>
+              <a class="nav-link" href="#projekcije">Projekcije</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PSHamburg</a>
+              <a class="nav-link" href="#pshamburg">PSHamburg</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kontakt</a>
+              <a class="nav-link" href="#kontakt">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -72,12 +72,14 @@
               <h1>Podcast Studio Hrvatska</h1>
               <h6>Prvi profesionalni Podcast Studio za svakoga</h6>
               <p>Podcast Studio Zagreb</p>
-              <button
-                type="button"
-                class="btn btn-outline-secondary button-main"
+              <a href="#kontakt"
+                ><button
+                  type="button"
+                  class="btn btn-outline-secondary button-main"
+                >
+                  Let’s talk
+                </button></a
               >
-                CTA Let’s talk
-              </button>
             </div>
           </div>
         </div>
@@ -396,8 +398,18 @@
               </div>
               <div class="col-12 col-lg-6">
                 <div class="social-wrapper">
-                  <img src="./img/icon-facebook.svg" alt="icon-facebook" />
-                  <img src="./img/icon-instagram.svg" alt="icon-instagram" />
+                  <a
+                    href="https://www.facebook.com/podcaststudio.hr/"
+                    target="_blank"
+                  >
+                    <img src="./img/icon-facebook.svg" alt="icon-facebook" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/podcaststudio.hr/"
+                    target="_blank"
+                  >
+                    <img src="./img/icon-instagram.svg" alt="icon-instagram" />
+                  </a>
                 </div>
                 <div class="dots">
                   <img src="./img/dots-kontakt.svg" alt="dots-kontakt" />
@@ -427,6 +439,7 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/main.js"></script>
     <script src="./js/form-validation.js"></script>
   </body>
 </html>
