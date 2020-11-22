@@ -10,7 +10,8 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #f8f8f8;
   background-color: #1d1233; }
 
@@ -24,7 +25,9 @@ body {
     margin-left: 18px;
     margin-right: 18px; }
     .navbar .navbar-nav .nav-item a {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
       font-size: 15px;
       line-height: 16px;
       letter-spacing: 0.107143px;
@@ -41,7 +44,8 @@ body {
         padding: 1rem 0; } }
 
 .button-main {
-  font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 16px;
   text-align: center;
@@ -80,20 +84,26 @@ body {
   #intro #intro-wrapper {
     margin-bottom: 76px; }
     #intro #intro-wrapper h1 {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+ sans-serif;
       font-size: 72px;
       line-height: 92px;
       letter-spacing: 0.529412px;
       margin-bottom: 32px;
       color: #f8f8f8; }
     #intro #intro-wrapper h6 {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+ sans-serif;
       font-size: 24px;
       line-height: 32px;
       letter-spacing: 0.176471px;
       color: #f8f8f8; }
     #intro #intro-wrapper p {
-      font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
       font-size: 24px;
       line-height: 30px;
       letter-spacing: 0.18px;
@@ -110,7 +120,9 @@ body {
   #podcast .podcast-title {
     padding-top: 40px; }
     #podcast .podcast-title h1 {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+ sans-serif;
       font-size: 72px;
       line-height: 92px;
       letter-spacing: 0.529412px;
@@ -133,14 +145,18 @@ body {
     #podcast .info-wrapper .info {
       margin-bottom: 58px; }
       #podcast .info-wrapper .info h6 {
-        font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
         font-size: 24px;
         line-height: 32px;
         letter-spacing: 0.176471px;
         color: #f8f8f8;
         margin-bottom: 36px; }
       #podcast .info-wrapper .info p {
-        font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
         font-size: 18px;
         line-height: 28px;
         letter-spacing: 0.132353px;
@@ -157,7 +173,9 @@ body {
   #koncept .koncept-title {
     padding-top: 40px; }
     #koncept .koncept-title h1 {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+ sans-serif;
       font-size: 72px;
       line-height: 92px;
       letter-spacing: 0.529412px;
@@ -172,14 +190,18 @@ body {
     margin-right: -15px;
     position: relative; }
     #koncept .info-wrapper .info h6 {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
       font-size: 24px;
       line-height: 32px;
       letter-spacing: 0.176471px;
       color: #f8f8f8;
       margin-bottom: 36px; }
     #koncept .info-wrapper .info p {
-      font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
       font-size: 18px;
       line-height: 28px;
       letter-spacing: 0.132353px;
@@ -209,7 +231,9 @@ body {
     position: relative;
     height: 100%; }
     #usluge .usluge-title h1 {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+ sans-serif;
       font-size: 72px;
       line-height: 92px;
       letter-spacing: 0.529412px;
@@ -233,7 +257,9 @@ body {
     #usluge .usluge-wrapper .usluge-inner {
       margin-bottom: 36px; }
       #usluge .usluge-wrapper .usluge-inner h6 {
-        font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
         font-size: 24px;
         line-height: 32px;
         letter-spacing: 0.176471px;
@@ -253,7 +279,9 @@ body {
   #projekcije .projekcije-title {
     padding-top: 40px; }
     #projekcije .projekcije-title h1 {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+ sans-serif;
       font-size: 72px;
       line-height: 92px;
       letter-spacing: 0.529412px;
@@ -263,7 +291,9 @@ body {
     padding-top: 40px;
     margin-bottom: 180px; }
     #projekcije .projekcije-description h6 {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+ sans-serif;
       font-size: 24px;
       line-height: 32px;
       letter-spacing: 0.176471px;
@@ -291,7 +321,9 @@ body {
       background-color: #1d1233;
       padding: 30px 40px 30px 50px; }
       #pshamburg .box .box-info h6 {
-        font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
         font-size: 24px;
         line-height: 32px;
         letter-spacing: 0.176471px;
@@ -319,7 +351,9 @@ body {
   #kontakt .kontakt-title {
     padding-top: 40px; }
     #kontakt .kontakt-title h1 {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+ sans-serif;
       font-size: 72px;
       line-height: 92px;
       letter-spacing: 0.529412px;
@@ -328,7 +362,9 @@ body {
   #kontakt .kontakt-info {
     margin-bottom: 115px; }
     #kontakt .kontakt-info h6 {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+ sans-serif;
       font-size: 24px;
       line-height: 52px;
       letter-spacing: 0.176471px;
@@ -337,13 +373,17 @@ body {
       #kontakt .kontakt-info {
         margin-bottom: 60px; } }
   #kontakt .copyright p {
-    font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 0.132353px;
     color: #ffffff; }
   #kontakt .copyright a {
-    font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 0.132353px;
@@ -351,13 +391,17 @@ body {
   #kontakt .address {
     padding-top: 202px; }
     #kontakt .address h6 {
-      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Black", -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+ sans-serif;
       font-size: 32px;
       line-height: 52px;
       letter-spacing: 0.176471px;
       color: #ffffff; }
     #kontakt .address p {
-      font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: "Mulish-Regular", -apple-system, BlinkMacSystemFont,
+ "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+ "Helvetica Neue", sans-serif;
       font-size: 32px;
       line-height: 52px;
       letter-spacing: 0.176471px;
@@ -381,3 +425,7 @@ body {
   @media (max-width: 991px) {
     #kontakt .dots img {
       width: unset; } }
+.impressum-wrapper {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 7.5rem 5rem; }
