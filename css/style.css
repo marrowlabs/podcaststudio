@@ -429,14 +429,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-#partneri .images .image-wrapper {
-  padding-right: 20px;
+  padding-right: 15px;
 }
 
 #partneri .images .image-wrapper:first-child {
-  padding-right: 60px;
+  padding-right: 40px;
 }
 
 @media (max-width: 991px) {

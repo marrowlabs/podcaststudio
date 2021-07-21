@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
   scrollFunction();
 });
 
+document.querySelector(".navbar").addEventListener("click", handleNavbarActiveClasses);
+
 window.onscroll = function () {
   scrollFunction();
 };
@@ -14,5 +16,21 @@ function scrollFunction() {
   } else {
     document.getElementById("navbar").style.backgroundColor = "transparent";
     document.getElementById("logo").style.width = "90px";
+  }
+}
+
+function handleNavbarActiveClasses(e) {
+  const navItems = navbar.querySelectorAll(".nav-item");
+  const element = e.target.parentElement;
+  if (element.classList.contains("nav-item")) {
+    navItems.forEach(item => {
+      item.classList.remove("active");
+    })
+    element.classList.add("active");
+  }
+  if (element.classList.contains("navbar-brand")) {
+    navItems.forEach(item => {
+      item.classList.remove("active");
+    })
   }
 }

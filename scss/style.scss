@@ -447,13 +447,10 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
-    .image-wrapper {
-      padding-right: 20px;
-    }
+    padding-right: 15px;
   
     .image-wrapper:first-child {
-      padding-right: 60px;
+      padding-right: 40px;
   
       @media (max-width: 991px) {
         padding-bottom: 40px;
