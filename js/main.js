@@ -14,8 +14,8 @@ function scrollFunction() {
       "rgba(0, 0, 0, 0.9)";
     document.getElementById("logo").style.width = "50px";
   } else {
-    document.getElementById("navbar").style.backgroundColor = "transparent";
-    document.getElementById("logo").style.width = "90px";
+    document.getElementById("navbar").style.backgroundColor = "rgba(255, 0, 0, 0.2);"
+    document.getElementById("logo").style.width = "140px";
   }
 }
 
@@ -34,3 +34,9 @@ function handleNavbarActiveClasses(e) {
     })
   }
 }
+
+//Change footer date automatically
+
+let year = new Date().getFullYear();
+
+document.getElementsByClassName("year")[0].innerHTML = year;
