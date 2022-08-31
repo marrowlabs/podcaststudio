@@ -1,0 +1,1022 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f8f8f8;
+  background-color: #10172A;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: inherit;
+}
+
+/* NAVBAR */
+
+.navbar {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding-top: 1.75rem;
+}
+
+.navbar .navbar-brand img {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 9.8125rem;
+  height: 2rem;
+
+}
+
+.navbar .navbar-nav .nav-item {
+  margin-left: 1.125rem;
+  margin-right: 1.125rem;
+}
+
+.navbar .navbar-nav .nav-item a {
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 900;
+  line-height: 1rem;
+  letter-spacing: 0.107143px;
+  text-transform: uppercase;
+  color: #545862
+
+}
+
+.navbar .navbar-nav .nav-item.active a {
+  color: #FFFFFF
+}
+
+.navbar .navbar-nav .nav-item:hover a {
+  color: #FFFFFF
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+  }
+  .navbar .navbar-nav {
+    padding: 1rem 0;
+  }
+}
+
+/* INTRO */
+
+#intro {
+  background: linear-gradient(to bottom, #10172A 85%, #ffffff 15%);
+}
+
+
+#intro .intro-elements {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 3%;
+}
+
+
+#intro img {
+  display:block;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f8f8f8;
+  font-weight: 900;
+  font-size: 4.5em;
+  margin-bottom: 2.5rem;
+  width: 40.875rem;
+}
+
+
+.intro-text {
+  margin-left: 9.4375%;
+  margin-top: 9.25%;
+}
+
+.intro-sub-1 {
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 2rem;
+  letter-spacing: 0.176471px;
+  color: #F8F8F8;
+}
+
+.intro-highlight {
+  background:linear-gradient(180deg, transparent 50%, #936CDD 90%, transparent 25%);
+}
+
+.intro-sub-2 {
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.18px;
+  color: #545862;
+  margin-bottom: 4.375rem;
+}
+
+.button-main {
+  font-family: 'nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 900;
+  line-height: 1rem;
+  text-align: center;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 20px 40px;
+  border-radius: 40px;
+  width: 15.125rem;
+  height: 3.5rem;
+}
+
+.button-main:hover {
+  background-color: #936CDD;
+  border: 1px solid #936CDD;
+}
+
+/* INTRO - div sa slikama */
+  .intro-images {
+    margin-top: 6.9375%;
+    height: 47.875rem;
+    width: 37.5625rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
+    background-image: url("./images/intro-dots.png");
+    background-repeat: no-repeat;
+    background-position: 0% 15%;
+  }
+
+  .intro-img1 {
+    position: absolute;
+    top: 12%;
+    left: 12%;
+  }
+
+  .intro-img2 {
+    position: absolute;
+    top: 0%;
+    left: 58%;
+  }
+
+  .intro-img3 {
+    position: absolute;
+    top: 53%;
+    left: 58%;
+  }
+
+
+/* PARTNERI */
+
+.partneri {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 12rem;
+  padding: 5%;
+}
+
+.partner-wespa {
+  position: relative;
+  top: 10%;
+  left: 0%;
+}
+
+.partner-netokracija {
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+
+#intro img {
+  max-width: 100%;
+}
+
+@media (min-width: 40rem) {
+ #intro .intro-elements {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 991px) {
+  #intro .intro-text {
+      margin-top: 18%;
+      margin-left: 1rem;
+  } .intro-images {
+    margin-left: 0;
+  }
+}
+
+
+/* KONCEPT */
+
+#koncept {
+  background-color: #ffffff;
+}
+
+.koncept-title {
+  font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3.5rem;
+  line-height: 5.75rem;
+  font-weight: 700;
+  letter-spacing: 0.529412px;
+  padding-top: 4.75%;
+  margin-left: 8%;
+  color: #000000;
+}
+
+.koncept-containers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-image: url("./images/koncept-background.png"), url("./images/double-dots.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 12.9375% 45%, 85% 25%;
+  padding: 11rem 0;
+}
+
+
+.koncept-box {
+  height: 17rem;
+  width: 18.75rem;
+  background-color: #ffffff;
+  border-radius: 40px;
+  margin-right: 1.25rem;
+  margin-top: 1.25rem;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #545862;
+}
+
+
+#koncept h3 {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.625rem;
+  line-height: 5.75rem;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  padding: 0 1.5rem;
+}
+
+#koncept p {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  text-align: center;
+  color: #545862;
+  padding: 0 1.5rem 1.6rem;
+}
+
+  .koncept-containers {
+    margin: auto;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+  }
+
+
+@media (min-width: 768px) {
+  #koncept {
+    padding-top: 5%;
+  }
+}
+
+/* USLUGE */
+
+  #usluge {
+    background-color: #f8f8f8;
+    background-image: url("./images/usluge-background.png"), url("./images/usluge-dots.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 95% 20%, 95% 20%;
+    width: 100%;
+  }
+
+
+  #usluge h2 {
+    font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 3.5rem;
+    line-height: 5.75rem;
+    font-weight: 700;
+    letter-spacing: 0.529412px;
+    padding-top: 4.75%;
+    margin-left: 8rem;
+    color: #000000;
+  }
+
+  .usluge-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    justify-content: center;
+    margin-top: auto;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    background-image: url("./images/lines.png");
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+  }
+
+  .usluge-box {
+    text-align: center;
+    height: 13.125rem;
+    width: 17.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .usluge-box img {
+    margin-bottom: 2rem;
+  }
+
+
+  #usluge p {
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #000000;
+  }
+
+  #usluge p:hover {
+    text-decoration: underline;
+    text-decoration-color: #6BDD93;
+    text-decoration-thickness: 30%;
+    text-underline-offset: 0.5rem;
+    cursor: pointer;
+  }
+
+  #usluge button {
+    position: relative;
+    /* left: 40%; */
+    background-color: #936CDD;
+    width: 18.625rem;
+    margin-bottom: 10%;
+  }
+
+  #usluge button:hover {
+    background-color: #ffffff;
+    border: 1px solid #936CDD;
+    color: #936CDD;
+  }
+
+   .bukiraj-button {
+      display: flex;
+      margin: auto;
+      justify-content: space-evenly;
+      padding-bottom: 10%;
+   }
+
+/* TKO SNIMA */
+
+#tko-snima {
+  background-color: #f8f8f8;
+  padding-bottom: 10%;
+}
+
+#tko-snima h2 {
+  font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #10172A;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 5.75rem;
+  margin-left: 8rem;
+  margin-bottom: 2.8125rem;
+}
+
+#tko-snima h3 {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #10172A;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-height: 80%;
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+.snima-slika {
+  margin-left: 12%;
+  padding-right: 10%;
+  display: block;
+  max-width: 100%;
+}
+
+.snima-text {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #545862;
+  font-weight: 400;
+  font-size: 1.625rem;
+  line-height: 2.21rem;
+  background-color: #f8f8f8;
+  position: absolute;
+  text-align: left;
+  max-width: 45%;
+  top: 3%;
+  left: 45%;
+  margin-left: 2%;
+}
+
+@media (min-width: 1440px) {
+  .snima-text {
+    left: 35%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .slideshow-container {
+    padding-bottom: 10%;
+  }
+}
+
+.snima-text p {
+  margin-top: 5%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  /* display: none; */
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  opacity: 0.7;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  opacity: 1;
+}
+
+
+/* The dots/bullets/indicators */
+
+.bullets {
+  padding-top: 1%;
+  margin: auto 10%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10rem;
+  width: 10rem;
+  margin: 0 1.2rem;
+  background-color: #bbb;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.netokracija {
+  background-image: url("./images/dot-netokracija.png");
+}
+
+.lood {
+  background-image: url("./images/dot-lood.png");
+}
+
+.eventualno {
+  background-image: url("./images/dot-lea-kosovic.png");
+}
+
+.stimac {
+  background-image: url("./images/dot-stimac.png");
+}
+
+.planetopija {
+  background-image: url("./images/dot-planetopija.png");
+}
+
+.anika {
+  background-image: url("./images/dot-how-could-she.png");
+}
+
+.osvrtnik {
+  background-image: url("./images/dot-osvrtnik.png");
+}
+
+.podkassst {
+  background-image: url("./images/dot-podkassst.png");
+}
+
+.kazini {
+  background-image: url("./images/dot-kazini.png");
+}
+
+
+.dot-active, .dot:hover {
+  background-color: #936CDD;
+  opacity: 0.4;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.fade:not(.show) {
+  opacity: 1;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* O PODCASTU */
+
+#o-podcastu {
+  background-color: #f8f8f8;
+}
+
+#o-podcastu h2 {
+  font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #10172A;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 5.75rem;
+  margin-left: 8rem;
+  margin-bottom: 2.8125rem;
+}
+
+#o-podcastu h3 {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #10172A;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 5.75rem;
+}
+
+#o-podcastu p {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #545862;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+
+.o-podcastu-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: center;
+  padding-bottom: 6.9375rem;
+  margin: 0 5%;
+}
+
+.o-podcastu-text {
+  height: 33.375rem;
+  max-width: 35%;
+  margin-right: 5%;
+}
+
+.o-podcastu-text img {
+  margin-bottom: 10%;
+}
+
+.kalendar {
+  background-color: #6BDD93;
+  border-radius: 40px;
+  height: 15.3125rem;
+  width: 15.3125rem;
+  margin-bottom: 2rem;
+  background-image: url("./images/calendar.png");
+  background-repeat: no-repeat;
+  background-position: 20% 80%;
+}
+
+
+.this-year {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #F8F8F8;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-left: 55%;
+  padding-top: 5%;
+  line-height: 110%;
+}
+
+.this-year span {
+  margin-left: 30%;
+}
+
+.oglasavanje-2021 {
+  background-color: #936CDD;
+  border-radius: 40px;
+  height: 20.5625rem;
+  width: 15.3125rem;
+  margin-bottom: 2rem;
+}
+
+.money-text {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #F8F8F8;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-left: 7%;
+}
+
+.regular-text {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #F8F8F8;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-left: 7%;
+}
+
+.shade-text, .next-year {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #F8F8F8;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 7%;
+}
+
+.next-year {
+  margin-top: 30%;
+}
+
+.one-twenty {
+  position: relative;
+  top: 25%;
+}
+
+.oglasavanje-2021 img {
+  position: relative;
+  top: 7%;
+  left: 10%;
+}
+
+.projekcije-2023 {
+  background-color: #2ABA5E;
+  border-radius: 40px;
+  height: 15.3125rem;
+  width: 15.3125rem;
+  background-image: url("./images/zelena-pizza1.png"), url("./images/zelena-pizza2.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 100% 0, 100% 0;
+}
+
+.oglasavanje-2021 {
+  background-image: url("./images/elipsa-1.png"), url("./images/elipsa-2.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50% 50%, 100% 50%;
+}
+
+.o-podcastu-info3 {
+  background-color: #6BDD93;
+  border-radius: 40px;
+  height: 38rem;
+  width: 15.3125rem;
+  background-image: url("./images/play-chipped.png");
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+
+
+.info3-shapes {
+  position: relative;
+  top: 50%;
+  left: 17%;
+}
+
+.first-shape {
+  opacity: 60%;
+}
+
+.second-shape {
+  position: absolute;
+  left: 13%;
+  opacity: 80%;
+}
+
+.third-shape {
+  position: absolute;
+  left: 26%;
+}
+
+.u-index {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #F8F8F8;
+  font-size: 2.25rem;
+  line-height: 3.07rem;
+  font-weight: 700;
+  position: relative;
+  top: 5%;
+  left: 10%;
+}
+
+.u-index-sub {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #F8F8F8;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: relative;
+  top: 7%;
+  left: 18%;
+}
+
+.o-podcastu-ikone {
+  position: relative;
+  top: 20%;
+  left: 20%;
+  height: 23%;
+}
+
+.o-podcastu-ikone img {
+  position: absolute;
+}
+
+.o-podcastu-ikone .home-icon {
+    top:auto;
+    left: auto;
+}
+
+.home-hover-img {
+  display: none;
+  bottom: 49%;
+  right: 31.5%;
+  z-index: 99;
+}
+
+.home-parent:hover .home-hover-img{
+  display: inline;
+  cursor: pointer;
+}
+
+
+.o-podcastu-ikone .transit-icon {
+  top:auto;
+  left: 40%;
+}
+
+.transit-hover-img {
+  display: none;
+  bottom: 49%;
+  right: 35%;
+  z-index: 99;
+}
+
+.transit-parent:hover .transit-hover-img{
+  display: inline;
+  cursor: pointer;
+}
+
+.o-podcastu-ikone .work-icon {
+  top: 80%;
+  left: auto;
+}
+
+.work-hover-img {
+  display: none;
+  top: 37%;
+  right: 32%;
+  z-index: 99;
+}
+
+.work-parent:hover .work-hover-img{
+  display: inline;
+  cursor: pointer;
+}
+
+.o-podcastu-ikone .other-icon {
+  top: 80%;
+  left: 40%;
+}
+
+.other-hover-img {
+  display: none;
+  top: 36.5%;
+  right: 35%;
+  z-index: 99;
+}
+
+.other-parent:hover .other-hover-img{
+  display: inline;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .o-podcastu-info2, .o-podcastu-info3 {
+    margin-top: 5%;
+  } .o-podcastu-text {
+    margin-bottom: 22%;
+  } #o-podcastu h2 {
+    margin-left: 5%;
+  }
+}
+
+/* HAMBURG ZAGREB */
+
+#hamburg-zagreb {
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/vert-dots.png");
+  background-repeat: no-repeat;
+  background-position: 94% 18%;
+}
+
+
+.hamburg-zagreb-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6.25rem;
+  justify-content: center;
+  padding: 12.9375rem 0 8.5rem;
+}
+
+
+  #hamburg-zagreb .box-info-hamburg, .box-info-zagreb {
+    width: 35.625rem;
+    height: 15.75rem;
+    border-radius: 0 0 40px 40px;
+}
+
+  #hamburg-zagreb h6 {
+    font-family: "nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 3.25rem;
+    margin-right: 3.25rem;
+    line-height: 5.75rem;
+    letter-spacing: 0.176471px;
+    color: #f8f8f8;
+}
+
+  #hamburg-zagreb .box-info-hamburg {
+    background-color: #936CDD;
+  }
+
+  #hamburg-zagreb .box-info-zagreb {
+    background-color: #6BDD93;
+  }
+
+  #hamburg-zagreb p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.132353px;
+    color: #f8f8f8;
+    margin-left: 3.25rem;
+    margin-right: 3.25rem;
+}
+
+
+/* KONTAKT */
+
+  .kontakt-title{
+    font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 3.5rem;
+    line-height: 5.75rem;
+    font-weight: 700;
+    color: #f8f8f8;
+    margin-left: 6.25rem;
+  }
+
+  .kontakt-containers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 4rem;
+  }
+
+  #kontakt p {
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: #f8f8f8;
+  }
+
+ .ikone-kontakt {
+    margin-bottom: 3.8125rem;
+  }
+
+  .ikone-kontakt img {
+    padding-left: 1.25rem;
+  }
+
+  .ps-kontakt img, .ps-adresa img{
+    margin-bottom: 3.8125rem;
+  }
+
+
+  #kontakt a:hover{
+    text-decoration: none;
+  }
+
+  #kontakt span {
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    line-height: 3.25rem;
+    font-weight: 800;
+    color: #f8f8f8;
+    padding-left: 1rem;
+  }
+
+
+/* FOOTER */
+
+footer, footer a, footer a:hover {
+  color: #f8f8f8;
+  margin-top: 4rem;
+  margin-bottom: 1.25rem;
+  margin-left: 7%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 1.125rem;
+  line-height: 1.5343rem;
+  font-weight: 400;
+}
+
+footer a, footer a:hover {
+  margin-left: 2%;
+}
+
+
+@media (max-width: 768px) {
+  #kontakt .kontakt-containers, .kontakt-title {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .koncept-containers {
+    justify-content: space-around;
+    margin-left: 2%;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  #koncept h2, #usluge h2, #tko-snima h2, #o-podcastu h2, #kontakt h2 {
+    text-align: center;
+    margin-left: 0;
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width: 1440px) {
+  h1, #intro .intro-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1513px) {
+  .o-podcastu-info2, .o-podcastu-info3 {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .o-podcastu-text, .o-podcastu-info1 {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1429px) {
+  #intro {
+    background: linear-gradient(to bottom, #10172A 0%, #10172A 40%, #ffffff 40.1%, #ffffff 100%);
+  }
+}
