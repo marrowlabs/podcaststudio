@@ -226,7 +226,7 @@ h1 {
 
 @media (max-width: 767px) {
   .intro-img2, .intro-img3 {
-    left: 10%;
+    left: 13%;
   } .intro-images {
     margin-bottom: 2rem;
     padding-right: 5rem;
@@ -267,6 +267,14 @@ h1 {
   left: 10%;
 }
 
+@media (max-width: 768px) {
+  .partner-netokracija {
+    left: 2%;
+  } .o-podcastu-text img {
+    position: relative;
+    left: 45%;
+  }
+}
 
 #intro img {
   max-width: 100%;
@@ -1038,7 +1046,7 @@ h1 {
 
   #hamburg-zagreb .box-info-hamburg, .box-info-zagreb {
     width: 35.625rem;
-    height: 15.75rem;
+    /* height: 15.75rem; */
     border-radius: 0 0 40px 40px;
 }
 
@@ -1075,7 +1083,7 @@ h1 {
   #hamburg-zagreb h6, #hamburg-zagreb p {
     height: auto;
     text-align: center;
-    margin: 0 0.5rem;
+    margin: 0 1.5rem;
   } #hamburg-zagreb h6 {
     line-height: normal;
     padding-top: 6%;
@@ -1088,6 +1096,12 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
   }
+}
+
+@media (min-width: 320px) {
+ #hamburg-zagreb .box-info-hamburg, .box-info-zagreb {
+   height: 15.75rem;
+ }
 }
 /* KONTAKT */
 
@@ -1183,7 +1197,8 @@ footer a, footer a:hover {
 @media (max-width: 1024px) {
   #koncept h2, #usluge h2, #tko-snima h2, #o-podcastu h2, #kontakt h2 {
     text-align: center;
-    margin-left: 0;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
     padding-bottom: 5%;
     line-height: normal;
   }
@@ -1207,7 +1222,7 @@ footer a, footer a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .o-podcastu-info2, .o-podcastu-info3 {
     margin: 5% auto;
   }
