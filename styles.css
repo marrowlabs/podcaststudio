@@ -1260,3 +1260,13 @@ footer a, footer a:hover {
     line-height: 100%;
   }
 }
+
+@media (min-width: 388px) and (max-width: 392px) {
+  #intro img {
+    display: none;
+  } .intro-images {
+    display: none;
+  } #intro .intro-elements {
+    background-color: #10172A;
+  }
+}
