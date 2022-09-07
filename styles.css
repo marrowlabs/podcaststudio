@@ -84,7 +84,7 @@ nav {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   /* margin-right: 3%; */
 }
 
@@ -105,7 +105,7 @@ h1 {
   font-weight: 900;
   font-size: 4.5em;
   margin-bottom: 2.5rem;
-  margin-top: auto;
+  margin-top: 1rem;
   /* width: 70%; */
   /* width: 40.875rem; */
 }
@@ -113,6 +113,7 @@ h1 {
 @media (min-width: 600px) {
   h1 {
     width: 40.875rem;
+    margin-top: auto;
   }
 }
 
@@ -175,11 +176,13 @@ h1 {
   height: 3.5rem;
 }
 
-/* @media (min-width: 600px) {
+@media (max-width: 550px) {
   .button-main {
     margin-bottom: 4rem;
+  } .intro-sub-2 {
+    margin-bottom: 1rem;
   }
-} */
+}
 
 .button-main:hover {
   background-color: #936CDD;
@@ -191,7 +194,7 @@ h1 {
     margin-top: 6.9375%;
     height: 47.875rem;
     width: 37.5625rem;
-    max-width: 100%;
+    /* max-width: 100%; */
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
     background-image: url("./images/intro-dots.svg");
     background-repeat: no-repeat;
@@ -216,6 +219,21 @@ h1 {
     left: 58%;
   }
 
+.intro-img1 img {
+  max-width: 50%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .intro-img2, .intro-img3 {
+    left: 10%;
+  } .intro-images {
+    margin-bottom: 2rem;
+    padding-right: 5rem;
+  } .intro-img1 {
+    display: none;
+  }
+}
 
 /* PARTNERI */
 
@@ -264,8 +282,8 @@ h1 {
   #intro .intro-text {
       margin-top: 18%;
       margin-left: 1rem;
-  } .intro-images {
-    margin-left: 0;
+  } .intro-img1 {
+    left: 7%;
   }
 }
 
@@ -344,6 +362,17 @@ h1 {
   }
 }
 
+@media (max-width: 425px) {
+  .koncept-box {
+    margin-right: 0;
+    height: auto;
+  } #koncept h3, p {
+    margin-top: 5%;
+    line-height: 2rem;
+    padding-bottom: 0;
+  }
+}
+
 /* USLUGE */
 
   #usluge {
@@ -394,6 +423,7 @@ h1 {
 
   .usluge-box {
     text-align: center;
+    /* height: 13.125rem; */
     height: 13.125rem;
     width: 17.5rem;
     margin-bottom: 2rem;
@@ -604,6 +634,14 @@ h1 {
   margin: auto 10%;
 }
 
+@media (max-width: 767px) {
+  .bullets {
+    display: none;
+  } #tko-snima .snima-text img {
+    margin: 0;
+  }
+}
+
 .dot {
   cursor: pointer;
   height: 10rem;
@@ -675,6 +713,12 @@ h1 {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* @media (max-width: 767px) {
+  #tko-snima span {
+    max-width: 50%;
+  }
+} */
 
 /* O PODCASTU */
 
@@ -1027,7 +1071,24 @@ h1 {
     margin-right: 3.25rem;
 }
 
-
+@media (max-width: 767px) {
+  #hamburg-zagreb h6, #hamburg-zagreb p {
+    height: auto;
+    text-align: center;
+    margin: 0 0.5rem;
+  } #hamburg-zagreb h6 {
+    line-height: normal;
+    padding-top: 6%;
+  } #hamburg-zagreb img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  } #hamburg-zagreb .box-info-hamburg, .box-info-zagreb {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 /* KONTAKT */
 
   .kontakt-title{
@@ -1124,6 +1185,7 @@ footer a, footer a:hover {
     text-align: center;
     margin-left: 0;
     padding-bottom: 5%;
+    line-height: normal;
   }
 }
 
@@ -1162,5 +1224,24 @@ footer a, footer a:hover {
 @media (max-width: 1429px) {
   #intro {
     background: linear-gradient(to bottom, #10172A 0%, #10172A 40%, #ffffff 40.1%, #ffffff 100%);
+  }
+}
+
+@media (min-width: 525px) and (max-width: 600px) {
+  #intro{
+    background: linear-gradient(to bottom, #10172A 0%, #10172A 37%, #ffffff 37.1%, #ffffff 100%);
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 90%;
+  } #tko-snima p {
+    font-size: 70%;
+    line-height: normal;
+    margin-top: 0;
+  } #tko-snima h3 {
+    font-size: 3rem;
+    line-height: 100%;
   }
 }
