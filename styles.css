@@ -224,7 +224,7 @@ h1 {
   height: auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .intro-img2, .intro-img3 {
     left: 13%;
   } .intro-images {
@@ -504,17 +504,23 @@ h1 {
 
 #tko-snima .snima-text img {
   width: 7rem;
-  margin-left: 4rem;
-  margin-top: 1rem;
+}
+
+#tko-snima .snima-text a {
   position: relative;
   bottom: 1%;
   right: 1%;
+  margin-left: 80%;
 }
 
+@media (max-width: 1024px) {
+  #tko-snima .snima-text a {
+    margin-left: auto;
+  }
+}
 
 /* Slideshow container */
 .slideshow-container {
-  /* max-height: 80%; */
   max-width: 90%;
   position: relative;
   margin: auto;
@@ -525,8 +531,6 @@ h1 {
   margin-left: 12%;
   text-align: center;
   padding-right: 10%;
-  /* display: block; */
-  /* max-width: 100%; */
 }
 
 @media (max-width: 480px) {
@@ -722,11 +726,6 @@ h1 {
   to {opacity: 1}
 }
 
-/* @media (max-width: 767px) {
-  #tko-snima span {
-    max-width: 50%;
-  }
-} */
 
 /* O PODCASTU */
 
