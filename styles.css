@@ -199,24 +199,28 @@ h1 {
     background-image: url("./images/intro-dots.svg");
     background-repeat: no-repeat;
     background-position: 0% 15%;
+    transform: translate(-1%, 5%);
   }
 
   .intro-img1 {
     position: absolute;
     top: 12%;
     left: 12%;
+    /* transform: translate(10%, 12%); */
   }
 
   .intro-img2 {
     position: absolute;
     top: 0%;
     left: 58%;
+    /* transform: translate(60%, -180%); */
   }
 
   .intro-img3 {
     position: absolute;
     top: 53%;
     left: 58%;
+    /* transform: translate(60%, -170%); */
   }
 
 .intro-img1 img {
@@ -227,11 +231,14 @@ h1 {
 @media (max-width: 600px) {
   .intro-img2, .intro-img3 {
     left: 13%;
+    /* transform: translate(7%, 0); */
   } .intro-images {
     margin-bottom: 2rem;
     padding-right: 5rem;
   } .intro-img1 {
     display: none;
+  } .intro-img2 {
+    margin-bottom: 3%;
   }
 }
 
@@ -364,7 +371,7 @@ h1 {
   }
 
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   #koncept {
     padding-top: 5%;
   }
