@@ -1227,8 +1227,8 @@ footer a, footer a:hover {
 @media (max-width: 1430px) {
   .o-podcastu-info2, .o-podcastu-info3 {
     margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
   }
   .o-podcastu-text, .o-podcastu-info1 {
     max-width: 37%;
