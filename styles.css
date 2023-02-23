@@ -1,5 +1,8 @@
-html, body {
-    overflow-x: hidden
+html,
+body {
+  overflow-x: hidden;
+  max-width: 1550px;
+  margin: 0 auto;
 }
 
 html {
@@ -7,15 +10,21 @@ html {
 }
 
 body {
-  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #f8f8f8;
-  background-color: #10172A;
+  background-color: #10172a;
   overflow: hidden !important;
   width: 100%;
   height: 100%;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
 }
 
@@ -32,7 +41,6 @@ h1,h2,h3,h4,h5,h6 {
   transition: all 0.3s ease-in-out;
   width: 9.8125rem;
   height: 2rem;
-
 }
 
 .navbar .navbar-nav .nav-item {
@@ -41,22 +49,22 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar .navbar-nav .nav-item a {
-  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 0.9375rem;
   font-weight: 900;
   line-height: 1rem;
   letter-spacing: 0.107143px;
   text-transform: uppercase;
-  color: #545862
-
+  color: #545862;
 }
 
 .navbar .navbar-nav .nav-item.active a {
-  color: #FFFFFF
+  color: #ffffff;
 }
 
 .navbar .navbar-nav .nav-item:hover a {
-  color: #FFFFFF
+  color: #ffffff;
 }
 
 @media (max-width: 991px) {
@@ -75,9 +83,8 @@ nav {
 /* INTRO */
 
 #intro {
-  background: linear-gradient(to bottom, #10172A 85%, #ffffff 15%);
+  background: linear-gradient(to bottom, #10172a 85%, #ffffff 15%);
 }
-
 
 #intro .intro-elements {
   display: flex;
@@ -95,12 +102,13 @@ nav {
 }
 
 #intro img {
-  display:block;
+  display: block;
   max-width: 100%;
 }
 
 h1 {
-  font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #f8f8f8;
   font-weight: 900;
   font-size: 4.5em;
@@ -132,20 +140,27 @@ h1 {
 }
 
 .intro-sub-1 {
-  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.5rem;
   font-weight: 800;
   line-height: 2rem;
   letter-spacing: 0.176471px;
-  color: #F8F8F8;
+  color: #f8f8f8;
 }
 
 .intro-highlight {
-  background:linear-gradient(180deg, transparent 50%, #936CDD 90%, transparent 25%);
+  background: linear-gradient(
+    180deg,
+    transparent 50%,
+    #936cdd 90%,
+    transparent 25%
+  );
 }
 
 .intro-sub-2 {
-  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
@@ -161,7 +176,8 @@ h1 {
 }
 
 .button-main {
-  font-family: 'nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.25rem;
   font-weight: 900;
   line-height: 1rem;
@@ -179,49 +195,50 @@ h1 {
 @media (max-width: 550px) {
   .button-main {
     margin-bottom: 4rem;
-  } .intro-sub-2 {
+  }
+  .intro-sub-2 {
     margin-bottom: 1rem;
   }
 }
 
 .button-main:hover {
-  background-color: #936CDD;
-  border: 1px solid #936CDD;
+  background-color: #936cdd;
+  border: 1px solid #936cdd;
 }
 
 /* INTRO - div sa slikama */
-  .intro-images {
-    margin-top: 6.9375%;
-    height: 47.875rem;
-    width: 37.5625rem;
-    /* max-width: 100%; */
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
-    background-image: url("./images/intro-dots.svg");
-    background-repeat: no-repeat;
-    background-position: 0% 15%;
-    transform: translate(-1%, 5%);
-  }
+.intro-images {
+  margin-top: 6.9375%;
+  height: 47.875rem;
+  width: 37.5625rem;
+  /* max-width: 100%; */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
+  background-image: url("./images/intro-dots.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 15%;
+  transform: translate(-1%, 5%);
+}
 
-  .intro-img1 {
-    position: absolute;
-    top: 12%;
-    left: 12%;
-    /* transform: translate(10%, 12%); */
-  }
+.intro-img1 {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  /* transform: translate(10%, 12%); */
+}
 
-  .intro-img2 {
-    position: absolute;
-    top: 0%;
-    left: 58%;
-    /* transform: translate(60%, -180%); */
-  }
+.intro-img2 {
+  position: absolute;
+  top: 0%;
+  left: 58%;
+  /* transform: translate(60%, -180%); */
+}
 
-  .intro-img3 {
-    position: absolute;
-    top: 53%;
-    left: 58%;
-    /* transform: translate(60%, -170%); */
-  }
+.intro-img3 {
+  position: absolute;
+  top: 53%;
+  left: 58%;
+  /* transform: translate(60%, -170%); */
+}
 
 .intro-img1 img {
   max-width: 50%;
@@ -229,15 +246,19 @@ h1 {
 }
 
 @media (max-width: 600px) {
-  .intro-img2, .intro-img3 {
+  .intro-img2,
+  .intro-img3 {
     left: 13%;
     /* transform: translate(7%, 0); */
-  } .intro-images {
+  }
+  .intro-images {
     margin-bottom: 2rem;
     padding-right: 5rem;
-  } .intro-img1 {
+  }
+  .intro-img1 {
     display: none;
-  } .intro-img2 {
+  }
+  .intro-img2 {
     margin-bottom: 3%;
   }
 }
@@ -277,7 +298,8 @@ h1 {
 @media (max-width: 768px) {
   .partner-netokracija {
     left: 2%;
-  } .o-podcastu-text img {
+  }
+  .o-podcastu-text img {
     position: relative;
     left: 45%;
   }
@@ -288,20 +310,20 @@ h1 {
 }
 
 @media (min-width: 40rem) {
- #intro .intro-elements {
+  #intro .intro-elements {
     flex-direction: row;
   }
 }
 
 @media (max-width: 991px) {
   #intro .intro-text {
-      margin-top: 18%;
-      margin-left: 1rem;
-  } .intro-img1 {
+    margin-top: 18%;
+    margin-left: 1rem;
+  }
+  .intro-img1 {
     left: 7%;
   }
 }
-
 
 /* KONCEPT */
 
@@ -310,7 +332,8 @@ h1 {
 }
 
 .koncept-title {
-  font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 3.5rem;
   line-height: 5.75rem;
   font-weight: 700;
@@ -325,12 +348,12 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
-  background-image: url("./images/koncept-background.png"), url("./images/double-dots.svg");
+  background-image: url("./images/koncept-background.png"),
+    url("./images/double-dots.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: 12.9375% 45%, 85% 25%;
   padding: 11rem 0;
 }
-
 
 .koncept-box {
   height: 17rem;
@@ -343,9 +366,9 @@ h1 {
   border: 1px solid #545862;
 }
 
-
 #koncept h3 {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.625rem;
   line-height: 5.75rem;
   font-weight: 700;
@@ -355,7 +378,8 @@ h1 {
 }
 
 #koncept p {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 400;
@@ -364,12 +388,11 @@ h1 {
   padding: 0 1.5rem 1.6rem;
 }
 
-  .koncept-containers {
-    margin: auto;
-    padding-bottom: 10rem;
-    padding-top: 10rem;
-  }
-
+.koncept-containers {
+  margin: auto;
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+}
 
 @media (min-width: 600px) {
   #koncept {
@@ -381,7 +404,9 @@ h1 {
   .koncept-box {
     margin-right: 0;
     height: auto;
-  } #koncept h3, p {
+  }
+  #koncept h3,
+  p {
     margin-top: 5%;
     line-height: 2rem;
     padding-bottom: 0;
@@ -390,100 +415,99 @@ h1 {
 
 /* USLUGE */
 
-  #usluge {
-    background-color: #f8f8f8;
-    width: 100%;
-  }
+#usluge {
+  background-color: #f8f8f8;
+  width: 100%;
+}
 
+#usluge h2 {
+  font-family: "raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3.5rem;
+  line-height: 5.75rem;
+  font-weight: 700;
+  letter-spacing: 0.529412px;
+  padding-top: 4.75%;
+  margin-left: 8rem;
+  color: #000000;
+}
 
-  #usluge h2 {
-    font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 3.5rem;
-    line-height: 5.75rem;
-    font-weight: 700;
-    letter-spacing: 0.529412px;
-    padding-top: 4.75%;
-    margin-left: 8rem;
-    color: #000000;
-  }
+.usluge-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1%;
+  justify-content: center;
+  margin-top: auto;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
 
+@media (min-width: 876px) {
   .usluge-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1%;
-    justify-content: center;
-    margin-top: auto;
-    padding-top: 5%;
-    padding-bottom: 4%;
+    background-image: url("./images/lines.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 50% 40%;
   }
+}
 
-
-  @media (min-width: 876px) {
-    .usluge-container {
-      background-image: url("./images/lines.svg");
-      background-repeat: no-repeat, no-repeat;
-      background-position: 50% 40%;
-    }
+@media (min-width: 1142px) {
+  .usluge-container {
+    background-image: url("./images/usluge-background.svg"),
+      url("./images/usluge-dots.svg"), url("./images/lines.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 95% 20%, 95% 20%, 50% 40%;
   }
+}
 
-  @media (min-width: 1142px) {
-    .usluge-container {
-      background-image: url("./images/usluge-background.svg"), url("./images/usluge-dots.svg"), url("./images/lines.svg");
-      background-repeat: no-repeat, no-repeat;
-      background-position: 95% 20%, 95% 20%, 50% 40%;
-    }
-  }
+.usluge-box {
+  text-align: center;
+  /* height: 13.125rem; */
+  height: 13.125rem;
+  width: 17.5rem;
+  margin-bottom: 2rem;
+}
 
+.usluge-box img {
+  margin-bottom: 2rem;
+}
 
-  .usluge-box {
-    text-align: center;
-    /* height: 13.125rem; */
-    height: 13.125rem;
-    width: 17.5rem;
-    margin-bottom: 2rem;
-  }
+#usluge p {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000000;
+}
 
-  .usluge-box img {
-    margin-bottom: 2rem;
-  }
+#usluge p:hover {
+  text-decoration: underline;
+  text-decoration-color: #6bdd93;
+  text-decoration-thickness: 30%;
+  text-underline-offset: 0.5rem;
+  cursor: pointer;
+}
 
+#usluge button {
+  position: relative;
+  /* left: 40%; */
+  background-color: #936cdd;
+  width: 18.625rem;
+  margin-bottom: 10%;
+}
 
-  #usluge p {
-    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #000000;
-  }
+#usluge button:hover {
+  background-color: #ffffff;
+  border: 1px solid #936cdd;
+  color: #936cdd;
+}
 
-  #usluge p:hover {
-    text-decoration: underline;
-    text-decoration-color: #6BDD93;
-    text-decoration-thickness: 30%;
-    text-underline-offset: 0.5rem;
-    cursor: pointer;
-  }
-
-  #usluge button {
-    position: relative;
-    /* left: 40%; */
-    background-color: #936CDD;
-    width: 18.625rem;
-    margin-bottom: 10%;
-  }
-
-  #usluge button:hover {
-    background-color: #ffffff;
-    border: 1px solid #936CDD;
-    color: #936CDD;
-  }
-
-   .bukiraj-button {
-      display: flex;
-      margin: auto;
-      justify-content: space-evenly;
-      padding-bottom: 10%;
-   }
+.bukiraj-button {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  padding-bottom: 10%;
+}
 
 /* TKO SNIMA */
 
@@ -493,8 +517,9 @@ h1 {
 }
 
 #tko-snima h2 {
-  font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #10172A;
+  font-family: "raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #10172a;
   font-weight: 700;
   font-size: 3.5rem;
   line-height: 5.75rem;
@@ -503,8 +528,9 @@ h1 {
 }
 
 #tko-snima h3 {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #10172A;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #10172a;
   font-weight: 700;
   font-size: 3.5rem;
 }
@@ -547,7 +573,8 @@ h1 {
 }
 
 .snima-text {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #545862;
   font-weight: 400;
   font-size: 1.625rem;
@@ -568,13 +595,15 @@ h1 {
     left: 45%;
     text-align: left;
     width: 45%;
-  } .snima-slika {
+  }
+  .snima-slika {
     text-align: left;
     margin-left: 12%;
     padding-right: 10%;
     /* display: block; */
     max-width: 100%;
-  } .mySlides {
+  }
+  .mySlides {
     background-image: url("./images/shape-bkg.svg");
     background-repeat: no-repeat;
     background-position: 14% 50%;
@@ -593,7 +622,6 @@ h1 {
   }
 }
 
-
 .snima-text p {
   margin-top: 5%;
 }
@@ -608,7 +636,8 @@ h1 {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 35%;
@@ -625,11 +654,14 @@ h1 {
 }
 
 @media (max-width: 480px) {
-  .prev, .next {
+  .prev,
+  .next {
     top: 15%;
-  } .prev {
+  }
+  .prev {
     padding-left: 0;
-  } .next {
+  }
+  .next {
     padding-right: 0;
   }
 }
@@ -641,10 +673,10 @@ h1 {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
   opacity: 1;
 }
-
 
 /* The dots/bullets/indicators */
 
@@ -656,7 +688,8 @@ h1 {
 @media (max-width: 767px) {
   .bullets {
     display: none;
-  } #tko-snima .snima-text img {
+  }
+  #tko-snima .snima-text img {
     margin: 0;
   }
 }
@@ -674,7 +707,6 @@ h1 {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 
 .netokracija {
   background-image: url("./images/dot-netokracija.png");
@@ -712,9 +744,9 @@ h1 {
   background-image: url("./images/dot-kazini.png");
 }
 
-
-.dot-active, .dot:hover {
-  background-color: #936CDD;
+.dot-active,
+.dot:hover {
+  background-color: #936cdd;
   opacity: 0.4;
 }
 
@@ -729,10 +761,13 @@ h1 {
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
 
 /* O PODCASTU */
 
@@ -741,8 +776,9 @@ h1 {
 }
 
 #o-podcastu h2 {
-  font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #10172A;
+  font-family: "raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #10172a;
   font-weight: 700;
   font-size: 3.5rem;
   line-height: 5.75rem;
@@ -750,10 +786,10 @@ h1 {
   margin-bottom: 2.8125rem;
 }
 
-
 #o-podcastu h3 {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #10172A;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #10172a;
   font-weight: 700;
   font-size: 2rem;
   line-height: 5.75rem;
@@ -762,7 +798,9 @@ h1 {
 @media (max-width: 867px) {
   #o-podcastu h3 {
     line-height: normal;
-  } #o-podcastu h3, #o-podcastu p {
+  }
+  #o-podcastu h3,
+  #o-podcastu p {
     text-align: center;
   }
 }
@@ -774,13 +812,13 @@ h1 {
 }
 
 #o-podcastu p {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #545862;
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-
 
 .o-podcastu-container {
   display: flex;
@@ -798,13 +836,12 @@ h1 {
   margin-right: 5%;
 }
 
-
 .o-podcastu-text img {
   margin-bottom: 10%;
 }
 
 .kalendar {
-  background-color: #6BDD93;
+  background-color: #6bdd93;
   border-radius: 40px;
   height: 15.3125rem;
   width: 15.3125rem;
@@ -814,10 +851,10 @@ h1 {
   background-position: 20% 80%;
 }
 
-
 .this-year {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #F8F8F8;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f8f8f8;
   font-size: 4rem;
   font-weight: 700;
   margin-left: 55%;
@@ -830,7 +867,7 @@ h1 {
 }
 
 .oglasavanje-2021 {
-  background-color: #936CDD;
+  background-color: #936cdd;
   border-radius: 40px;
   height: 20.5625rem;
   width: 15.3125rem;
@@ -838,24 +875,28 @@ h1 {
 }
 
 .money-text {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #F8F8F8;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f8f8f8;
   font-size: 4rem;
   font-weight: 700;
   margin-left: 7%;
 }
 
 .regular-text {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #F8F8F8;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f8f8f8;
   font-size: 2.25rem;
   font-weight: 700;
   margin-left: 7%;
 }
 
-.shade-text, .next-year {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #F8F8F8;
+.shade-text,
+.next-year {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f8f8f8;
   font-size: 2rem;
   font-weight: 700;
   margin-left: 7%;
@@ -877,11 +918,12 @@ h1 {
 }
 
 .projekcije-2023 {
-  background-color: #2ABA5E;
+  background-color: #2aba5e;
   border-radius: 40px;
   height: 15.3125rem;
   width: 15.3125rem;
-  background-image: url("./images/zelena-pizza1.png"), url("./images/zelena-pizza2.png");
+  background-image: url("./images/zelena-pizza1.png"),
+    url("./images/zelena-pizza2.png");
   background-repeat: no-repeat, no-repeat;
   background-position: 100% 0, 100% 0;
 }
@@ -893,7 +935,7 @@ h1 {
 }
 
 .o-podcastu-info3 {
-  background-color: #6BDD93;
+  background-color: #6bdd93;
   border-radius: 40px;
   height: 38rem;
   width: 15.3125rem;
@@ -901,7 +943,6 @@ h1 {
   background-repeat: no-repeat;
   background-position: 0 100%;
 }
-
 
 .info3-shapes {
   position: relative;
@@ -925,8 +966,9 @@ h1 {
 }
 
 .u-index {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #F8F8F8;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f8f8f8;
   font-size: 2.25rem;
   line-height: 3.07rem;
   font-weight: 700;
@@ -936,8 +978,9 @@ h1 {
 }
 
 .u-index-sub {
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #F8F8F8;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f8f8f8;
   font-size: 1.5rem;
   font-weight: 400;
   position: relative;
@@ -957,8 +1000,8 @@ h1 {
 }
 
 .o-podcastu-ikone .home-icon {
-    top:auto;
-    left: auto;
+  top: auto;
+  left: auto;
 }
 
 .home-hover-img {
@@ -968,14 +1011,13 @@ h1 {
   z-index: 99;
 }
 
-.home-parent:hover .home-hover-img{
+.home-parent:hover .home-hover-img {
   display: inline;
   cursor: pointer;
 }
 
-
 .o-podcastu-ikone .transit-icon {
-  top:auto;
+  top: auto;
   left: 40%;
 }
 
@@ -986,7 +1028,7 @@ h1 {
   z-index: 99;
 }
 
-.transit-parent:hover .transit-hover-img{
+.transit-parent:hover .transit-hover-img {
   display: inline;
   cursor: pointer;
 }
@@ -1003,7 +1045,7 @@ h1 {
   z-index: 99;
 }
 
-.work-parent:hover .work-hover-img{
+.work-parent:hover .work-hover-img {
   display: inline;
   cursor: pointer;
 }
@@ -1020,21 +1062,23 @@ h1 {
   z-index: 99;
 }
 
-.other-parent:hover .other-hover-img{
+.other-parent:hover .other-hover-img {
   display: inline;
   cursor: pointer;
 }
 
 @media (max-width: 768px) {
-  .o-podcastu-info2, .o-podcastu-info3 {
+  .o-podcastu-info2,
+  .o-podcastu-info3 {
     margin-top: 5%;
-  } .o-podcastu-text {
+  }
+  .o-podcastu-text {
     margin-bottom: 22%;
-  } #o-podcastu h2 {
+  }
+  #o-podcastu h2 {
     margin-left: 5%;
   }
 }
-
 
 /* HAMBURG ZAGREB */
 
@@ -1046,7 +1090,6 @@ h1 {
   background-position: 94% 18%;
 }
 
-
 .hamburg-zagreb-container {
   display: flex;
   flex-direction: row;
@@ -1056,55 +1099,60 @@ h1 {
   padding: 12.9375rem 0 8.5rem;
 }
 
-
-  #hamburg-zagreb .box-info-hamburg, .box-info-zagreb {
-    width: 35.625rem;
-    /* height: 15.75rem; */
-    border-radius: 0 0 40px 40px;
+#hamburg-zagreb .box-info-hamburg,
+.box-info-zagreb {
+  width: 35.625rem;
+  /* height: 15.75rem; */
+  border-radius: 0 0 40px 40px;
 }
 
-
-  #hamburg-zagreb h6 {
-    font-family: "nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-left: 3.25rem;
-    margin-right: 3.25rem;
-    line-height: 5.75rem;
-    letter-spacing: 0.176471px;
-    color: #f8f8f8;
+#hamburg-zagreb h6 {
+  font-family: "nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 3.25rem;
+  margin-right: 3.25rem;
+  line-height: 5.75rem;
+  letter-spacing: 0.176471px;
+  color: #f8f8f8;
 }
 
-  #hamburg-zagreb .box-info-hamburg {
-    background-color: #936CDD;
-  }
+#hamburg-zagreb .box-info-hamburg {
+  background-color: #936cdd;
+}
 
-  #hamburg-zagreb .box-info-zagreb {
-    background-color: #6BDD93;
-  }
+#hamburg-zagreb .box-info-zagreb {
+  background-color: #6bdd93;
+}
 
-  #hamburg-zagreb p {
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.132353px;
-    color: #f8f8f8;
-    margin-left: 3.25rem;
-    margin-right: 3.25rem;
+#hamburg-zagreb p {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.132353px;
+  color: #f8f8f8;
+  margin-left: 3.25rem;
+  margin-right: 3.25rem;
 }
 
 @media (max-width: 767px) {
-  #hamburg-zagreb h6, #hamburg-zagreb p {
+  #hamburg-zagreb h6,
+  #hamburg-zagreb p {
     height: auto;
     text-align: center;
     margin: 0 1.5rem;
-  } #hamburg-zagreb h6 {
+  }
+  #hamburg-zagreb h6 {
     line-height: normal;
     padding-top: 6%;
-  } #hamburg-zagreb img {
+  }
+  #hamburg-zagreb img {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-  } #hamburg-zagreb .box-info-hamburg, .box-info-zagreb {
+  }
+  #hamburg-zagreb .box-info-hamburg,
+  .box-info-zagreb {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -1112,69 +1160,74 @@ h1 {
 }
 
 @media (min-width: 320px) {
- #hamburg-zagreb .box-info-hamburg, .box-info-zagreb {
-   height: 15.75rem;
- }
+  #hamburg-zagreb .box-info-hamburg,
+  .box-info-zagreb {
+    height: 15.75rem;
+  }
 }
 /* KONTAKT */
 
-  .kontakt-title{
-    font-family: 'raleway', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 3.5rem;
-    line-height: 5.75rem;
-    font-weight: 700;
-    color: #f8f8f8;
-    margin-left: 6.25rem;
-  }
+.kontakt-title {
+  font-family: "raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3.5rem;
+  line-height: 5.75rem;
+  font-weight: 700;
+  color: #f8f8f8;
+  margin-left: 6.25rem;
+}
 
-  .kontakt-containers {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: space-around;
-    text-align: left;
-    margin-top: 4rem;
-  }
+.kontakt-containers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  text-align: left;
+  margin-top: 4rem;
+}
 
-  #kontakt p {
-    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 1.7rem;
-    line-height: 2.5rem;
-    font-weight: 400;
-    color: #f8f8f8;
-  }
+#kontakt p {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  color: #f8f8f8;
+}
 
- .ikone-kontakt {
-    margin-bottom: 3.8125rem;
-  }
+.ikone-kontakt {
+  margin-bottom: 3.8125rem;
+}
 
-  .ikone-kontakt img {
-    padding-left: 1.25rem;
-  }
+.ikone-kontakt img {
+  padding-left: 1.25rem;
+}
 
-  .ps-kontakt img, .ps-adresa img{
-    margin-bottom: 3.8125rem;
-  }
+.ps-kontakt img,
+.ps-adresa img {
+  margin-bottom: 3.8125rem;
+}
 
+#kontakt a:hover {
+  text-decoration: none;
+}
 
-  #kontakt a:hover{
-    text-decoration: none;
-  }
-
-  #kontakt span {
-    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 2rem;
-    line-height: 3.25rem;
-    font-weight: 800;
-    color: #f8f8f8;
-    padding-left: 1rem;
-  }
-
+#kontakt span {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  line-height: 3.25rem;
+  font-weight: 800;
+  color: #f8f8f8;
+  padding-left: 1rem;
+}
 
 /* FOOTER */
 
-footer, footer a, footer a:hover {
+footer,
+footer a,
+footer a:hover {
   color: #f8f8f8;
   margin-top: 4rem;
   margin-bottom: 1.25rem;
@@ -1186,13 +1239,14 @@ footer, footer a, footer a:hover {
   font-weight: 400;
 }
 
-footer a, footer a:hover {
+footer a,
+footer a:hover {
   margin-left: 2%;
 }
 
-
 @media (max-width: 768px) {
-  #kontakt .kontakt-containers, .kontakt-title {
+  #kontakt .kontakt-containers,
+  .kontakt-title {
     text-align: center;
     margin: auto;
   }
@@ -1206,9 +1260,12 @@ footer a, footer a:hover {
   }
 }
 
-
 @media (max-width: 1024px) {
-  #koncept h2, #usluge h2, #tko-snima h2, #o-podcastu h2, #kontakt h2 {
+  #koncept h2,
+  #usluge h2,
+  #tko-snima h2,
+  #o-podcastu h2,
+  #kontakt h2 {
     text-align: center;
     margin-left: 0.2rem;
     margin-right: 0.2rem;
@@ -1218,28 +1275,28 @@ footer a, footer a:hover {
 }
 
 @media (max-width: 1428px) {
-   #intro .intro-text {
+  #intro .intro-text {
     text-align: center;
   }
 }
 
-
 @media (max-width: 1430px) {
-  .o-podcastu-info2, .o-podcastu-info3 {
+  .o-podcastu-info2,
+  .o-podcastu-info3 {
     margin-top: 10%;
     margin-left: 8%;
     margin-right: 8%;
   }
-  .o-podcastu-text, .o-podcastu-info1 {
+  .o-podcastu-text,
+  .o-podcastu-info1 {
     max-width: 37%;
     height: auto;
   }
 }
 
-
-
 @media (max-width: 992px) {
-  .o-podcastu-info2, .o-podcastu-info3 {
+  .o-podcastu-info2,
+  .o-podcastu-info3 {
     margin: 5% auto;
   }
 }
@@ -1247,31 +1304,46 @@ footer a, footer a:hover {
 @media (max-width: 580px) {
   .o-podcastu-info1 {
     max-width: none;
-  } .o-podcastu-text {
+  }
+  .o-podcastu-text {
     max-width: 80%;
   }
 }
 
 @media (max-width: 1429px) {
   #intro {
-    background: linear-gradient(to bottom, #10172A 0%, #10172A 40%, #ffffff 40.1%, #ffffff 100%);
+    background: linear-gradient(
+      to bottom,
+      #10172a 0%,
+      #10172a 40%,
+      #ffffff 40.1%,
+      #ffffff 100%
+    );
   }
 }
 
 @media (min-width: 525px) and (max-width: 600px) {
-  #intro{
-    background: linear-gradient(to bottom, #10172A 0%, #10172A 37%, #ffffff 37.1%, #ffffff 100%);
+  #intro {
+    background: linear-gradient(
+      to bottom,
+      #10172a 0%,
+      #10172a 37%,
+      #ffffff 37.1%,
+      #ffffff 100%
+    );
   }
 }
 
 @media (max-width: 767px) {
   body {
     font-size: 90%;
-  } #tko-snima p {
+  }
+  #tko-snima p {
     font-size: 70%;
     line-height: normal;
     margin-top: 0;
-  } #tko-snima h3 {
+  }
+  #tko-snima h3 {
     font-size: 3rem;
     line-height: 100%;
   }
@@ -1280,9 +1352,11 @@ footer a, footer a:hover {
 @media (min-width: 388px) and (max-width: 392px) {
   #intro img {
     display: none;
-  } .intro-images {
+  }
+  .intro-images {
     display: none;
-  } #intro .intro-elements {
-    background-color: #10172A;
+  }
+  #intro .intro-elements {
+    background-color: #10172a;
   }
 }
