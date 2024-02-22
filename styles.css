@@ -220,16 +220,30 @@ h1 {
 }
 
 .intro-img1 {
+  border-radius: 200px;
   position: absolute;
   top: 12%;
   left: 12%;
+  height: 680px;
+  width: 240px;
   /* transform: translate(10%, 12%); */
+
+  img {
+    border-radius: 200px;
+  }
 }
 
 .intro-img2 {
+  border-radius: 200px;
   position: absolute;
   top: 0%;
   left: 58%;
+  height: 368px;
+  width: 240px;
+
+  img {
+    border-radius: 200px;
+  }
   /* transform: translate(60%, -180%); */
 }
 
@@ -237,6 +251,13 @@ h1 {
   position: absolute;
   top: 53%;
   left: 58%;
+  border-radius: 200px;
+  height: 368px;
+  width: 240px;
+
+  img {
+    border-radius: 200px;
+  }
   /* transform: translate(60%, -170%); */
 }
 
@@ -329,6 +350,36 @@ h1 {
 
 #koncept {
   background-color: #ffffff;
+  padding-top: 4.75%;
+  position: relative;
+  .background-image {
+    position: absolute;
+    left: 8%;
+    z-index: 2;
+    img {
+      border-top-right-radius: 250px;
+      border-bottom-right-radius: 250px;
+    }
+  }
+
+  .background-dots {
+    position: absolute;
+    right: 20%;
+    top: 36%;
+    z-index: 1;
+    img {
+      border-top-right-radius: 250px;
+      border-bottom-right-radius: 250px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #koncept .background-dots {
+    bottom: 60px;
+    top: auto;
+    margin-top: 0;
+  }
 }
 
 .koncept-title {
@@ -338,21 +389,20 @@ h1 {
   line-height: 5.75rem;
   font-weight: 700;
   letter-spacing: 0.529412px;
-  padding-top: 4.75%;
+
   margin-left: 8%;
   color: #000000;
+  position: relative;
+  z-index: 3;
 }
 
 .koncept-containers {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  background-image: url("./images/koncept-background.png"),
-    url("./images/double-dots.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-position: 12.9375% 45%, 85% 25%;
-  padding: 11rem 0;
+  justify-content: center;
+  position: relative;
+  z-index: 3;
 }
 
 .koncept-box {
